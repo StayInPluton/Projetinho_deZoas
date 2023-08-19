@@ -4,4 +4,9 @@ function exibirCalculos() {
 
     // Get the value of the input element
     var inputValue = inputElement.value;
-} 
+    var divisao = dividir(input1.value, input2.value)
+}
+
+function dividir(a, b){
+    return a/b;
+}
