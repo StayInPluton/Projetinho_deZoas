@@ -3,5 +3,13 @@ function exibirCalculos() {
     var input2 = document.getElementById("number2");
 
     // Get the value of the input element
-    var inputValue = inputElement.value;
+    var num1 = input1.value;
+    var num2 = input2.value;
+
+    var resultadoSub = subtracao (num1, num2)
 } 
+
+function subtracao(a, b){
+    var sub = a - b
+    return sub
+}
