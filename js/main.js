@@ -3,5 +3,10 @@ function exibirCalculos() {
     var input2 = document.getElementById("number2");
 
     // Get the value of the input element
-    var inputValue = inputElement.value;
-} 
+    var multiResultado = multiplica(input1.value, input2.value) ;
+}
+
+function multiplica (a,b){
+    var multi = a*b;
+    return multi
+}
